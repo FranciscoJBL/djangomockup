@@ -25,3 +25,7 @@
 ## Run
 
 Clone this repository and run ```python3 manage.py runserver portnumber``` in order to run the application, replacing the field portnumber by the dessired port
+
+## Further information
+
+```https://docs.djangoproject.com/es/2.2/intro/install/```
