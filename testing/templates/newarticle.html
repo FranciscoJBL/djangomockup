@@ -1,0 +1,8 @@
+<div class='create-article-form' >
+    <form action="{% url 'create_article'%}" method='post'>
+        {% csrf_token %}
+        <input name='publication_name' placeholder='insert your article title where' type='text'/><br><br>
+        <textarea name="content" cols="50" rows="10"></textarea><br><br>
+        <button type='submit'>enviar</button>
+    </form>
+</div>
