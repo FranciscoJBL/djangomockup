@@ -1,0 +1,11 @@
+{% if article %}
+<head>
+    <title>{{article}}</title>
+</head>
+
+<h1>{{article}}</h1>
+<p class='author'>{{article.author}}</p><br>
+<p class='article'>{{article.content}}</p>
+{% else %}
+    <p>Article not found.</p>
+{% endif %}
