@@ -1,0 +1,9 @@
+{% if articles %}
+    <ul>
+    {% for article in articles %}
+        <li><a href="{% url 'article' article.id %}">{{ article.publication_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No articles are available.</p>
+{% endif %}
