@@ -29,3 +29,8 @@ Clone this repository and run ```python3 manage.py runserver portnumber``` in or
 ## Further information
 
 ```https://docs.djangoproject.com/es/2.2/intro/install/```
+
+
+## TODO
+
+## Testing!
